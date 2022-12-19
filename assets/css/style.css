@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+    height: 20%;
+}
+
+.busca-produtos{
+    height: 45px;
+    padding: 10px;
+    width: auto;
+    flex-grow: 1;
+}
+
+.input{
+    border-color: #DCDCDC;
+	border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    width: 50%;
+    height: 80%;
+}
+
+
+.boas-vindas{
+    flex-grow: 1;
+    font-size: 10px;
+}
+
+.carrinho{
+    flex-grow: 1;
+}
+
+
+/*transform: translate(-50%, -50%);*/
