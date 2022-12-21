@@ -1,11 +1,33 @@
+/*Topo*/
 @media (max-width: 1000px) { 
+    .carrinho{
+        display: none;
+    }
+
+    .boas-vindas{
+        display: none;
+    }
+
+    .lupa{
+        margin-right: 18vh;
+    }
+
+    .nav-list li{
+        display: none;
+    }
+
+    .container-produtos{
+        margin-top: 100px;
+    }
+
     .container-filtros{
         display: none;
     }
+
+    .container-banner .texto{
+        display: none;
+    }
+
 }
 
-@media (max-width: 1000px) { 
-    .container-filtros{
-        display: none;
-    }
-}
+
