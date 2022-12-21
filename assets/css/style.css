@@ -13,6 +13,10 @@
     height: 60px;
 }
 
+.container .lupa{
+    margin-left: 64px;
+}
+
 .busca-produtos{
     height: 45px;
     padding: 10px;
@@ -58,6 +62,7 @@
 /*Barra de navegação*/
 .nav-bar{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: 8vh;
@@ -72,6 +77,11 @@
     text-decoration: none;
 }
 
+.nav-list li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .nav-list li a{
     color: white;
@@ -110,9 +120,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.ver-mais a{
+.ver-mais{
     text-decoration: none;
     color: #ff4f01;
+    cursor: pointer;
 }
 
 .mais{
@@ -184,7 +195,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-   /* background-color: #ff4f01;*/
     margin: 0;
     width: 45vh;
     max-height: 80vh;
@@ -211,6 +221,7 @@
 .card .img-produto img{
     position: relative;
 }
+
 .card .img-produto .frete-gratis{
     position: absolute;
 }
@@ -221,8 +232,12 @@
   margin-bottom: 2vh;
 }
 
-.card .selo-qualidade img{
-    
+.card .selo-marca img:hover{
+    transform: scale(1.1);
+}
+
+.card .selo-qualidade img:hover{
+    transform: scale(1.4);
 }
 
 .card .preco h2{
@@ -263,6 +278,11 @@
     font-size: 16px;
     cursor: pointer;
     border: none;
+}
+
+.card .botao button:hover{
+    background-color: #038354;
+    transform: scale(1.1);
 }
 
 /*seleciona as páginas*/
