@@ -110,6 +110,96 @@
     font-family: 'Roboto', sans-serif;
 }
 
-#mais{
-    display:;
+.ver-mais a{
+    text-decoration: none;
+    color: #ff4f01;
+}
+
+.mais{
+    display: none;
+}
+
+.ver-mais-click{
+    display: block;
+}
+
+/*Section filtros e ordenação*/
+.filtros-e-ordenacao{
+    padding: 2vh;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 10vh;
+    max-height: 10vh;
+}
+
+/*filtros lado esquerdo*/
+.container-filtros{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 30vh;
+}
+
+.container-filtros h1{
+    font-family: 'Roboto', sans-serif;
+    color: #ff4f01;
+    font-size: 20px;
+    margin-bottom: 2vh;
+}
+
+.container-filtros h2{
+    font-family: 'Roboto', sans-serif;
+    color:rgb(95, 82, 82);
+    font-size: 15px;
+    margin-bottom: 1vh;
+    cursor: pointer;
+}
+
+.categorias{
+    padding: 3vh;
+}
+
+.marcas{
+    padding: 3vh;
+}
+
+.preco{
+    padding: 3vh;
+}
+
+/*Main principal com produtos*/
+.container-produtos{
+    margin-top: -750px;
+    width: 165vh;
+    height: 150vh; /*VERIFICAR A ALTURA DO CONTAINER DE PRODUTOS*/
+    /*background-color: #ff4f01;*/
+    float: right;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   /* background-color: #ff4f01;*/
+    margin: 0;
+    width: 45vh;
+    height: 70vh;
+    padding: 2vh;
+}
+
+/*Todos os itens do card*/
+
+.card .nome-produto{
+    color: rgb(95, 82, 82);
+    font-family: 'Roboto', sans-serif;
+    font-size: 7px;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.card .selo-marca img{
+  width: 25vh;
+  height: 10vh;
+  margin-bottom: 2vh;
 }

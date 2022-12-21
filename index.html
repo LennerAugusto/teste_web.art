@@ -93,7 +93,7 @@
             <h1>Eletrodomésticos</h1>
             <p>
                 Você consegue imaginar sua rotina sem os eletrodomésticos? Difícil, né? Eles são equipamentos essenciais para realizar as tarefas domésticas com praticidade e eficiência, além de oferecer conforto para o seu lar. Aqui na Dufrio você encontra diversas opções de eletrodomésticos para a cozinha, a lavanderia e outros ambientes da casa.
-             <b>Confira as nossas dicas de compra de eletrodomésticos na Dufrio!</b> <span id="mais">Tipos de eletrodoméstico <br>
+             <b>Confira as nossas dicas de compra de eletrodomésticos na Dufrio!</b> <span class="mais">Tipos de eletrodoméstico <br>
                 Quando o assunto é eletrodoméstico, o que não falta é a variedade de equipamentos para facilitar sua vida em diversos aspectos.<br>
                 
                 São aparelhos que te ajudam no dia a dia a cozinhar, lavar louça, lavar roupas, secar, conservar, esquentar e refrigerar alimentos, entre muitas outras funções. Veja só:<br>
@@ -135,13 +135,96 @@
                 
                 Estética<br>
                 A estética dos equipamentos faz toda a diferença no visual da sua casa. Os eletrodomésticos coloridos estão em alta, compondo uma decoração moderna e divertida. É importante observar também o design e o material de fabricação.</span>
-
             </p>
+
+            <p class="ver-mais"><a href="#" onclick="mostraMaisBanner()">Ver mais...</a></p>
         </div>
     </section>
 
+    <section class="filtros-e-ordenacao">
+        <div class="itens-pagina">
+            <label for="">Itens por página:</label>
+            <select id="num-item">
+                <option value="3">3</option>
+                <option value="6">6</option>
+                <option value="9">9</option>
+                <option value="12">12</option>
+            </select>
+        </div>
+
+        <div class="ordenar">
+            <label for="">Ordenar por:</label>
+            <select id="Ordenacao">
+                <option value="Popolaridade">Popularidade</option>
+                <option value="Maior Preço">Maior Preço</option>
+                <option value="Menor Preço">Menor Preço</option>
+            </select>
+        </div>
+    </section>
+
+    <section class="container-filtros">
+        <div class="categorias">
+            <h1>Categorias</h1>
+            <h2>Champanheira Elétrica</h2>
+            <h2>Churrasqueira</h2>
+            <h2>Coifa</h2> 
+            <h2>Coocktop</h2>
+            <h2>Depurador de Ar/h2></h2>
+            <h2>Coocktop</h2> 
+            <h2>Depurador de Ar</h2>
+            <h2>fogão a Gás</h2>
+            <h2>Forno a Gás</h2>
+            <h2>Forno Elétrico</h2>
+            <h2>Frigobar</h2>
+            <a href="#"><h2>Ver Mais...</h2></a>
+        </div>
+
+        <div class="marcas">
+            <h1>Marcas</h1>
+        </div>
+
+        <div class="preco">
+            <h1>Preço</h1>
+            <h2><input type="checkbox">R$665,00 a 5573,00</h2>
+            <h2><input type="checkbox">R$5573,01 a 10480,00</h2>
+            <h2><input type="checkbox">R$10480,01 a 15388,00</h2>
+            <h2><input type="checkbox">R$15388,01 a 20295,00</h2>
+            <h2><input type="checkbox">R$20295,01 a 25203,00</h2>
+        </div>
+
+    </section>
+
+    <main class="container-produtos">
+        <div class="card">
+            <div class="img-produto">
+                <img src="assets/img/produtos/m_forno-a-g-s-de-embutir-venax-bianco-90-litros-branco-110v.jpg" alt="Forno a gás">
+            </div>
+
+            <div class="nome-produto">
+                <h1>Forno a Gás de Embutir Venax Bianco 90 Litros Branco</h1>
+            </div>
+
+            <div class="selo-marca">
+                <img src="assets/img/selos/venax.jpg" alt="Venax">
+            </div>
+
+            <div class="selo-qualidade">
+                <img src="assets/img/selos/procel.jpg" alt="Procel">
+                <img src="assets/img/selos/voltagem.jpg" alt="Voltagem">
+            </div>
+
+            <div class="preco">
+                <h2>R$15564,00</h2>
+            </div>
+
+            <div class="botao">
+                <button></button>
+            </div>
+        </div>
+    </main>
+
 
     <!--Link JavaScript do menu dropDown-->
-    <script src="assets/js/menuDropDown.js"></script>
+    <script src="assets/js/menu_animacaoBanner.js"></script>
 </body>
 </html>
