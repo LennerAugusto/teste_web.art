@@ -138,7 +138,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 30vh;
+    max-width: 35vh;
 }
 
 .container-filtros h1{
@@ -170,13 +170,16 @@
 
 /*Main principal com produtos*/
 .container-produtos{
-    margin-top: -750px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: -600px;
     width: 165vh;
-    height: 150vh; /*VERIFICAR A ALTURA DO CONTAINER DE PRODUTOS*/
-    /*background-color: #ff4f01;*/
+   /* height: 350vh;*/
     float: right;
 }
 
+/*Card dos produtos*/
 .card{
     display: flex;
     flex-direction: column;
@@ -184,8 +187,15 @@
    /* background-color: #ff4f01;*/
     margin: 0;
     width: 45vh;
-    height: 70vh;
-    padding: 2vh;
+    max-height: 80vh;
+    padding: 1vh;
+    margin-bottom: 35px;
+}
+
+.card:hover{
+    border: 1px solid rgb(95, 82, 82);
+    box-shadow: 2px 2px 2px 2px black;
+
 }
 
 /*Todos os itens do card*/
@@ -198,8 +208,61 @@
     margin-bottom: 3vh;
 }
 
+
 .card .selo-marca img{
   width: 25vh;
   height: 10vh;
   margin-bottom: 2vh;
+}
+
+.card .selo-qualidade img{
+    
+}
+
+.card .preco h2{
+    color: rgb(29, 119, 204);
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.card .preco h3{
+    color: rgb(29, 119, 204);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vh;
+    text-align: center;
+}
+
+.card .preco h4{
+    color: rgb(95, 82, 82);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vh;
+    text-align: center;
+}
+
+.card .botao{
+    background-color: #06cc84;
+    width: 20vh;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card .botao button{
+    background-color: #06cc84;
+    border-radius: 10px;
+    width: 30vh;
+    height: 50px;
+    margin-left: -5vh;
+    color: #DCDCDC;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+/*seleciona as páginas*/
+.seleciona-pagina{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
