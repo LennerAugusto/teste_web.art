@@ -193,8 +193,8 @@
 }
 
 .card:hover{
-    border: 1px solid rgb(95, 82, 82);
-    box-shadow: 2px 2px 2px 2px black;
+    border: .5px solid rgb(95, 82, 82);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, .5);
 
 }
 
@@ -208,6 +208,12 @@
     margin-bottom: 3vh;
 }
 
+.card .img-produto img{
+    position: relative;
+}
+.card .img-produto .frete-gratis{
+    position: absolute;
+}
 
 .card .selo-marca img{
   width: 25vh;
@@ -261,8 +267,41 @@
 
 /*seleciona as páginas*/
 .seleciona-pagina{
+    width: 100%;
     float: left;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content:center;
+    padding: 4vh;
+
+}
+
+.seleciona-pagina button{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    padding: 2vh;
+    border: .4px solid rgb(95, 82, 82);
+}
+
+.seleciona-pagina button:hover{
+    background-color: #ff4f01;
+}
+
+/*Footer*/
+.container-footer{
+  
+    float: left;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer .texto-footer{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1vh;
+    color: rgb(95, 82, 82);;
 }
