@@ -1,33 +1,67 @@
 /*Topo*/
-@media (max-width: 1000px) { 
-    .carrinho{
+@media (max-width: 1200px){
+    .nav-list li a{
         display: none;
-    }
-
-    .boas-vindas{
-        display: none;
-    }
-
-    .lupa{
-        margin-right: 18vh;
     }
 
     .nav-list li{
-        display: none;
-    }
-
-    .container-produtos{
-        margin-top: 100px;
+        padding: 80px;
     }
 
     .container-filtros{
         display: none;
     }
 
-    .container-banner .texto{
+    .container-produtos{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 1000px) { 
+
+    .lupa a{
+        display: none;
+    }
+
+    .nav-list li{
+        padding: 65px;
+    }
+
+    .container-banner .ver-mais{
         display: none;
     }
 
 }
+
+
+@media (max-width: 880px){
+    .boas-vindas{
+        display: none;
+    }
+
+    .nav-list li{
+        padding: 50px;
+    }
+
+    .container-banner .texto{
+        display: none;
+    }
+
+    .container-banner .banner img{
+        margin-left: 150px;
+    }
+}
+
+
+@media (max-width: 700px) { 
+    .carrinho{
+        display: none;
+    }
+
+    .nav-list li{
+        padding: 35px;
+    }
+}
+
 
 

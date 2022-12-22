@@ -1,0 +1,44 @@
+/*CORRIGIR*/
+
+
+@media (max-width: 500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+
+    }
+
+    .boas-vindas{
+        display: none;
+    }
+
+    .carrinho{
+        display: none;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+    .container-banner .texto{
+        display: block;
+    }
+
+    .container-banner{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #edf5f8;;
+    }
+
+    .container-banner .texto{
+        margin-left: 80px;
+    }
+
+    .filtros-e-ordenacao{
+        display: none;
+    }
+}
